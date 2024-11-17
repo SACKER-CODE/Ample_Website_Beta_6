@@ -257,7 +257,7 @@ body {
 }
 
 .owl-carousel img {
-    height: 200px; /* Set height for sponsor logos */
+    height: 150px; /* Set height for sponsor logos */
     width: auto; /* Maintain aspect ratio */
 }
 

@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Tech-Spark</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="owl.carousel.css">
+  <link rel="stylesheet" href="owl.theme.default.css">
+  <script src="three.r92.min.js"></script>
+  <script src="jquery.min.js"></script>
+  <script src="scroll-out.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
+    integrity="sha256-PF6MatZtiJ8/c9O9HQ8uSUXr++R9KBYu4gbNG5511WE=" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="spotlight">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+  <canvas id="particleCanvas"></canvas>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="/DJ_page/index.html">Dj-Night</a></li>
+      <li><a href="/Music/index.html">Music-Masti</a></li>
+      <li><a href="#pricing-area">Pricing</a></li>
+      <li><a href="/About_us_page/index.html">About_us</a></li>
+
+
+    </ul>
+  </nav>
+
+  <div class="heroSubP">
+
+  </div>
+  <div class="hero">
+    <div class="heroT">
+      <h2>Tech Spark 2024</h2>
+      <h2>Tech Spark 2024</h2>
+    </div>
+  </div>
+
+  <p class="heroP">A National Technical Event</p>
+
+  <div class="hero-spacer"></div>
+
+
+
+  <div class="top-nav" id="dj-area">
+    <h2 id="events-area">Events Menu</h2>
+    <div class="owl-carousel owl-theme" id="owl-carousel-dj">
+        <div class="item">
+          <div class="box-m">
+            <button class="animated-button" onclick="location.href='/#workshop-area'">
+              <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+              <span class="text">Workshops</span>
+              <span class="circle"></span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+            </button>
+            
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="box-m"  onclick="location.href='#hackathon-area'">
+            <button class="animated-button">
+              <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+              <span class="text">Hackathon</span>
+              <span class="circle"></span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+            </button>
+            
+          </div>
+        </div>
+        
+        <div class="item">
+          <div class="box-m"   onclick="location.href='#technical-area'">
+            <button class="animated-button">
+              <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+              <span class="text">Technical Events</span>
+              <span class="circle"></span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+            </button>
+            
+          </div>
+        </div> 
+
+        <div class="item">
+          <div class="box-m"  onclick="location.href='#non-technical-area'">
+            <button class="animated-button">
+              <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+              <span class="text">Non-Technical events</span>
+              <span class="circle"></span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+            </button>
+            
+          </div>
+        </div> 
+
+        
+      
+       </div>
+    </div>
+  </div>
+
+
+
+  <div class="sponsors-area" id="sponsors-area">
+    <h2>Title-Sponsors</h2>
+
+    <br>
+    
+    <div class="sponsor-logos">
+        <img src="3.png" alt="Sponsor 1 Logo" class="sponsor-logo">
+        <img src="4.png" alt="Sponsor 2 Logo" class="sponsor-logo">
+    </div>
+  </div>
+
+
+
+
+  <div class="workshop_area" id="workshop-area">
+    <h3>Workshops</h3>
+    <div class="owl-carousel owl-theme" id="owl-carousel-1">
+      <div class="item">
+        <div class="box">
+          <img src="/AWS_workshop/card_img.jpeg" alt="Image 1">
+          <h4>AWS Cloud Workshop</h4>
+          <button class="read-more" onclick="location.href='/AWS_workshop/index.html'">Read More</button>
+        </div>
+      </div>
+      <div class="item">
+        <div class="box">
+          <img src="cyber_workshop/cyber_security.png" alt="Image 2">
+          <h4>Ethical Hacking Workshop</h4>
+          <button class="read-more" onclick="location.href='/cyber_workshop/index.html'">Read More</button>
+        </div>
+      </div>
+<!--       <div class="item">
+        <div class="box">
+          <img src="/3d-Workshop/vase.jpg" alt="Image 3">
+          <h4>3-D Printing Workshop</h4>
+          <button class="read-more" onclick="location.href='/3d-Workshop/index.html'">Read More</button>
+        </div> -->
+      </div>
+      <!-- Add more items as needed -->
+    </div>
+  </div>
+
+
+
+
+  <h2 class="card-heading" id="hackathon-area">Hackathon</h2>
+
+  <div class="HACKTHON">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12">
+          <article class="blog-card">
+            <div class="blog-card__background">
+              <div class="card__background--wrapper">
+                <div class="card__background--main" style="background-image: url('/hack_bg.png');">
+                  <div class="card__background--layer"></div>
+                </div>
+              </div>
+            </div>
+            <div class="blog-card__head">
+              <span class="date__box">
+                <span class="date__day">21</span>
+                <span class="date__month">Nov</span>
+              </span>
+            </div>
+            <div class="blog-card__info">
+              <h5></h5>
+              <p>
+                <a href="/hackathon/index.html" class="icon-link mr-3"><i class="fa fa-pencil-square-o"></i> SPECKATHON
+                </a>
+                <a href="#" class="icon-link"><i class="fa fa-comments-o"></i> </a>
+              </p>
+              <p>A competition focused on presenting feasible solutions to visible problems.
+                Unlike a hackathon, the emphasis is on explaining how the solution works rather than building it..!</p>
+              <a href="/hackathon/index.html" class="btn btn--with-icon"><i
+                  class="btn-icon fa fa-long-arrow-right"></i>READ MORE</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <section class="detail-page">
+      <div class="container mt-5">
+
+      </div>
+    </section>
+  </div>
+
+
+
+  <section class="swiper mySwiper">
+    <h2 class="technical_event_heading" id="technical-area"> Technical Section </h2>
+    <div class="owl-carousel owl-theme" id="owl-carousel">
+      <div class="item">
+        <div class="card">
+          <div class="card__image">
+            <img src="/Assets/code.png" alt="card image">
+          </div>
+          <div class="card__content">
+            <span class="card__title">Code Slayer</span>
+            <span class="card__name">by coding club</span>
+            <p class="card__text"> A solo coding competition designed to test your programming skills and
+              problem-solving abilities</p>
+            <button class="card__btn" onclick="location.href='/code_slayer/index.html'">View More</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card__image">
+            <img src="/Assets/dev.png" alt="card image">
+          </div>
+          <div class="card__content">
+            <span class="card__title">Dev_Era</span>
+            <span class="card__name">by coding club</span>
+            <p class="card__text"> A team coding competition designed to test your development skills through two
+              challenging rounds</p>
+            <button class="card__btn" onclick="location.href='/dev_era/index.html'">View More</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card__image">
+            <img src="/project_expo/project_expo.jpg" alt="card image">
+          </div>
+          <div class="card__content">
+            <span class="card__title">Project Expo</span>
+            <span class="card__name">Departmental Event</span>
+            <p class="card__text">This Events are conducted to Enhances the technical Skills </p>
+            <button class="card__btn" onclick="location.href='/project_expo/index.html'">View More</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card__image">
+            <img src="/code_warriors/codewarriors.jpg" alt="card image">
+          </div>
+          <div class="card__content">
+            <span class="card__title">Code Warriors</span>
+            <span class="card__name"></span>
+            <p class="card__text">This Events are conducted to Enhances the Coding Skills </p>
+            <button class="card__btn" onclick="location.href='/code_warriors/index.html'">View More</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card__image">
+            <img src="/poster_presentation/Poster_presentatioin.jpg" alt="card image">
+          </div>
+          <div class="card__content">
+            <span class="card__title">Poster Presentation</span>
+            <span class="card__name">Departmental Event</span>
+            <p class="card__text">This Events are conducted to Enhances the technical Skills </p>
+            <button class="card__btn" onclick="location.href='/poster_presentation/index.html'">View More</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card__image">
+            <img src="/Assets/cyber.png" alt="card image">
+          </div>
+          <div class="card__content">
+            <span class="card__title">Capture The Flag (C T F)</span>
+            <span class="card__name">by CISA</span>
+            <p class="card__text">This is designed for cybersecurity enthusiasts to showcase their skills in solving
+              real-world challenges</p>
+            <button class="card__btn" onclick="location.href='/ctf/index.html'">View More</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card__image">
+            <img src="/Assets/circuitlogic.png" alt="card image">
+          </div>
+          <div class="card__content">
+            <span class="card__title">Circuit Hunting</span>
+            <span class="card__name">by robotics club</span>
+            <p class="card__text">A competation to test the knowledge of students on electric circuits, electronic
+              components, and logical design.</p>
+            <button class="card__btn" onclick="location.href='/circuit_hunting/index.html'">View More</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card__image">
+            <img src="/technical_quiz/Technical_quiz.jpg" alt="card image">
+          </div>
+          <div class="card__content">
+            <span class="card__title">Tech Trivia</span>
+            <span class="card__name">Departmental Event</span>
+            <p class="card__text">This Events are conducted to Enhances the technical Skills </p>
+            <button class="card__btn" onclick="location.href='/technical_quiz/index.html'">View More</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card__image">
+            <img src="/Assets/robots.png" alt="card image">
+          </div>
+          <div class="card__content">
+            <span class="card__title">Tower of Strength</span>
+            <span class="card__name">by robotics club</span>
+            <p class="card__text">A Mini JAM that focus on the real-life Robots and their roles </p>
+            <button class="card__btn" onclick="location.href='/Towers_of_strength/index.html'">View More</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card__image">
+            <img src="/paper_presentation/Paper_presentation.jpg" alt="card image">
+          </div>
+          <div class="card__content">
+            <span class="card__title">Paper Presentation</span>
+            <span class="card__name">Departmental Event</span>
+            <p class="card__text">This Events are conducted to Enhances the technical Skills </p>
+            <button class="card__btn" onclick="location.href='/paper_presentation/index.html'">View More</button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+
+  </section>
+
+  <section class="swiper mySwiper">
+
+    <h2 class="non_technical_event_heading" id="non-technical-area"> Non Technical events </h2>
+
+    <div class="owl-carousel owl-theme" id="owl-carousel-2">
+      <div class="item">
+        <div class="card">
+          <div class="card__image">
+            <img src="/Assets/bgmi.png" alt="card image">
+          </div>
+          <div class="card__content">
+            <span class="card__title">BGMI</span>
+            <span class="card__name">by NSS Council</span>
+            <p class="card__text">Teams of four players will compete against , adhering to specific rules that promote
+              respect for opponents </p>
+            <button class="card__btn" onclick="location.href='/BGMI/index.html'">View More</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card__image">
+            <img src="/Assets/freefire.png" alt="card image">
+          </div>
+          <div class="card__content">
+            <span class="card__title">Free Fire</span>
+            <span class="card__name">by NSS Council</span>
+            <p class="card__text"> A competitive gaming tournament that emphasizes fair play and esportsmanship. Teams
+              of four players will compete</p>
+            <button class="card__btn" onclick="location.href='/freefire/index.html'">View More</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card__image">
+            <img src="/Assets/memorize.png" alt="card image">
+          </div>
+          <div class="card__content">
+            <span class="card__title">Memorize</span>
+            <span class="card__name">By ALUMINI CLUB</span>
+            <p class="card__text">A event challenges participants with 20 questions that are either displayed visually
+              or presented audibly.</p>
+            <button class="card__btn" onclick="location.href='/memorize/index.html'">View More</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card__image">
+            <img src="/Assets/build&break.png" alt="card image">
+          </div>
+          <div class="card__content">
+            <span class="card__title">Buid & Break</span>
+            <span class="card__name">By ALUMINI CLUB</span>
+            <p class="card__text">A team-based challenge where two participants work together to build and break a
+              pyramid</p>
+            <button class="card__btn" onclick="location.href='/bbpyramid/index.html'">View More</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card__image">
+            <img src="/Assets/moviequiz.png" alt="card image">
+          </div>
+          <div class="card__content">
+            <span class="card__title">Movie Quiz</span>
+            <span class="card__name">By SMDC</span>
+            <p class="card__text">An engaging team-based game where two participants per team watch a movie clip and
+              answer questions related to it</p>
+            <button class="card__btn" onclick="location.href='/movie_quiz/index.html'">View More</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card__image">
+            <img src="Assets/gullycricket.png" alt="card image">
+          </div>
+          <div class="card__content">
+            <span class="card__title">Maidan Cricket</span>
+            <span class="card__name">By Sports council</span>
+            <p class="card__text">A popular informal version of cricket played in streets and open spaces. It emphasizes
+              fun, fair play, and sportsmanship</p>
+            <button class="card__btn" onclick="location.href='/gully_cricket/index.html'">View More</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card__image">
+            <img src="/Assets/tugofwar.png" alt="card image">
+          </div>
+          <div class="card__content">
+            <span class="card__title">Tug Battle</span>
+            <span class="card__name">By Sports council</span>
+            <p class="card__text">A fun and engaging event that fosters camaraderie and competition</p>
+            <button class="card__btn" onclick="location.href='/tugofwar/index.html'">View More</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card__image">
+            <img src="/Assets/dodgeball.png" alt="card image">
+          </div>
+          <div class="card__content">
+            <span class="card__title">Catch & Dodge</span>
+            <span class="card__name">By Sports council</span>
+            <p class="card__text">A competition that emphasizes teamwork and strategy , competing one another of
+              strength and coordination.</p>
+            <button class="card__btn" onclick="location.href='/dodgeball/index.html'">View More</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card__image">
+            <img src="/Assets/smdcphoto.png" alt="card image">
+          </div>
+          <div class="card__content">
+            <span class="card__title">Photo Exhibition</span>
+            <span class="card__name">By SMDC</span>
+            <p class="card__text">A platform for photographers of all levels to showcase their work centered around a
+              specific theme.</p>
+            <button class="card__btn" onclick="location.href='/photoexhibition/index.html'">View More</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <div class="nontech-ample"> </div>
+
+  <div class="pricing" id="pricing-area">
+    <h2 class="pricing_heading">Combos</h2>
+    <div class="pri_container">
+      
+      <div class="pri_card">
+        <h2>Platinum</h2>
+        <div class="stars">
+          <span class="star green">★★★</span> <!-- Single green star -->
+        </div>
+        <ul>
+          <li><strong>Access to ALL Events</strong></li>
+          <li class="tick">Technical Events</li>
+          <li class="tick">Non-Technical Events</li>
+          <li class="tick">Live-Band  </li>
+          <li class="cross">Music Masti</li>
+          <li class="cross">DJ Show</li>
+          
+        </ul>
+        <h3>Price: 500</h3>
+        <button><a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScg_a40hvMAAyIegQBrM3-HHa_nQI63iITovhQSIvOCAurWYw/viewform?usp=sf_link">Buy
+            Now</a></button>
+      </div>
+      <div class="pri_card">
+        <h2>Gold</h2>
+        <div class="stars">
+          <span class="star green">★</span> <!-- Single green star -->
+        </div>
+        <ul>
+          <li><strong>Access to LIMITED Events</strong></li>
+          <li class="tick">Technical Events(two events)</li>
+          <li class="tick">Live-Band  </li>
+          <li class="cross">Music Masti</li>
+          <li class="cross">DJ Show</li>
+        </ul>
+        <h3>Price: 400</h3>
+        <button><a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScAA-3Q7IV6syVxFXw6OeoqVxrMOWR3q1QyCMJ8EnvCsBGMag/viewform?usp=sf_link">Buy
+            Now</a></button>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="about-us" id="about-amp"></h2>
+
+
+  <section class="about-uss" id="about-ample">
+    <div class="about_us_container">
+      <h2></h2>
+      <p>TECHSPARK 2K24 IS A PREMIER INTER-COLLEGIATE EVENT,
+        UNITING INNOVATIVE MINDS TO SHOWCASE TECHNICAL
+        AND 
+       ENTREPRENEURIAL 
+       TALENT. 
+       THIS 
+       YEAR,
+        PARTICIPANTS CAN ENGAGE IN OVER 10 TECHNICAL
+        EVENTS HOSTED BY CLUBS LIKE THE CODING, ROBOTICS,
+        AND INNOVATION CLUBS, ALONG WITH 15+ NON-TECHNICAL
+        EVENTS, 20+ FUN ACTIVITIES, AND A VARIETY OF FOOD AND
+        ENTERTAINMENT STALLS</p>
+
+    </div>
+  </section>
+
+  <div class="space-btwn-footer"></div>
+
+  <footer class="footer">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    
+  
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="https://youtube.com/@svcetirupati?si=waNczcPvojocA1LL">
+          <img class="social-icon" src="/youtube.png">
+        </a></li>
+      <!-- <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <img class="social-icon" src="/twiter.png">
+        </a></li> -->
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/svcetirupati/profilecard/?igsh=Y3VkOGlraGh0YjNk">
+          <img class="social-icon" src="/insta.png">
+        </a></li>
+      <!-- <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <img class="social-icon" src="/linked.png">
+        </a></li> -->
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="/About_us_page/index.html">About</a></li>
+      <li class="menu__item"><a class="menu__link" href="#events-area">Events</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+      <li class="menu__item"><a class="menu__link" href="/contact_us/index.html">Contact</a></li>
+
+    </ul>
+    <p>&copy;2024 svce | All Rights Reserved</p>
+  </footer>
+
+
+  <script src="/script.js"></script>
+  <script src="owl.carousel.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>

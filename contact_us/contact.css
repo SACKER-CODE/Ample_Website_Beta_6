@@ -1,0 +1,178 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(
+    #4c265c,
+    #a05252
+  ); /* Gradient from dark red to a lighter red */
+  margin: 12vh;
+  text-align: center;
+}
+
+h1 {
+  color: #fff; /* White text for contrast */
+  margin-bottom: 20px;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  color: cornsilk;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(72, 72, 72, 0.237);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: rgba(
+    91,
+    47,
+    47,
+    0.8
+  ); /* Light background for table header */
+}
+
+thead {
+  background-color: #dea02e;
+  color: white;
+}
+
+a {
+  color: #dba134;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.tab-container {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.tabs {
+  display: inline-block; /* Make the tabs inline-block for better centering */
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+  list-style-type: none; /* Remove bullet points */
+}
+
+.tab {
+  display: inline; /* Keep tabs inline */
+  padding: 10px 20px; /* Add padding for a better look */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border: 1px solid #ccc; /* Optional: Add a border */
+  margin: 0 5px; /* Optional: Space between tabs */
+}
+
+.tab.active {
+  background-color: #007bff; /* Change background for active tab */
+  color: white; /* Change text color for active tab */
+}
+
+.tab:hover {
+  background-color: #0056b3; /* Change background on hover */
+  color: white; /* Change text color on hover */
+}
+
+.tab-content {
+  width: 80%; /* Set the width of the table container */
+  max-width: 1300px; /* Set a maximum width */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding inside the container */
+  border: 1px solid #ccc; /* Optional: Add a border around the container */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  box-shadow: 0 2px 10px rgba(29, 3, 3, 0.1); /* Optional: Add a shadow for depth */
+}
+
+table {
+  width: 100%; /* Make the table take full width of the container */
+  border-collapse: collapse; /* Collapse table borders */
+}
+
+th,
+td {
+  padding: 10px; /* Add padding to table cells */
+  text-align: left; /* Align text to the left */
+  border-bottom: 1px solid #ddd; /* Add a bottom border to rows */
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #cfaa5c;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  transition: background-color 0.3s ease;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+  color: cornsilk;
+  border: 1px solid #ccc;
+}
+
+.tab-content.active {
+  display: block;
+}
+/* mobile resposive */
+@media (max-width: 768px) {
+  body {
+    margin: 5vh 2vh;
+  }
+
+  table {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  th,
+  td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .tab-container {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .tab {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .tab-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  th,
+  td {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .tab {
+    padding: 8px;
+  }
+}
